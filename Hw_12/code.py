@@ -19,7 +19,7 @@ def instructor_summary():
     return render_template(
         'instructor-summary.html',
         title="Stevens Repository",
-        table_title="Courses, Courses, Grades and Instructors",
+        table_title="Student, Courses, Grades and Instructors",
         students=data)
 
 

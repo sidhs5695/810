@@ -23,4 +23,4 @@ def instructor_summary():
         students=data)
 
 
-app.run(debug=False)
+app.run(debug=True)
